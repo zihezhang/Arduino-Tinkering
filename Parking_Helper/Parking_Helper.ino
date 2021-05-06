@@ -77,7 +77,7 @@ void loop() {
     digitalWrite(led4,LOW);
     digitalWrite(led5,LOW);
   }
-  // All LEDs are off when car is >125cm away
+  // All LEDs are off when car is >135cm away
   else if (distance > 135){
     digitalWrite(led1,LOW);
     digitalWrite(led2,LOW);
